@@ -11,11 +11,11 @@ package com.mycompany.biblioteca.libros;
  * @author Admin
  */
 public class Libros {
-    int codigo;
-    String titulo;
-    String autor;
-    String genero;
-    Estado estados;
+    private int codigo;
+    private String titulo;
+    private String autor;
+    private String genero;
+    private Estado estados;
 
     public Libros(int codigo, String titulo, String autor, String genero, Estado estados) {
         this.codigo = codigo;
