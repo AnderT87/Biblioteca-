@@ -4,6 +4,8 @@
 
 package com.mycompany.biblioteca;
 
+import com.mycompany.biblioteca.vistas.VistaRegistro;
+
 /**
  *
  * @author Admin
@@ -11,6 +13,7 @@ package com.mycompany.biblioteca;
 public class Biblioteca {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        VistaRegistro vRegistro = new VistaRegistro();
+        vRegistro.setVisible(true);
     }
 }

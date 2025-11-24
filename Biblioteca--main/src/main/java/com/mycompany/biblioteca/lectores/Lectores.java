@@ -12,11 +12,11 @@ import com.mycompany.biblioteca.tarjeta.TipoTarjetas;
  */
 public class Lectores {
     String horaLLegada;
-    int cedula;
+    String cedula;
     TipoTarjetas tipoTarjetas;
     String barrio;
 
-    public Lectores(String horaLLegada, int cedula, String barrio,TipoTarjetas tipoTarjetas) {
+    public Lectores(String horaLLegada, String cedula, String barrio,TipoTarjetas tipoTarjetas) {
         this.horaLLegada = horaLLegada;
         this.cedula = cedula;
         this.barrio = barrio;
@@ -31,11 +31,11 @@ public class Lectores {
         this.horaLLegada = horaLLegada;
     }
 
-    public int getCedula() {
+    public String getCedula() {
         return cedula;
     }
 
-    public void setCedula(int cedula) {
+    public void setCedula(String cedula) {
         this.cedula = cedula;
     }
 
